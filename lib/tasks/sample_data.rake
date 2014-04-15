@@ -10,7 +10,7 @@ end
 
 def make_users
   admin = User.create!(:name => "Example User",
-                       :email => "example@railstutorial.org",
+                       :email => "example1@railstutorial.org",
                        :password => "foobar",
                        :password_confirmation => "foobar")
   admin.toggle!(:admin)
